@@ -38,9 +38,9 @@ where $\Omega = \arccos\left(\frac{W_{\text{SFT}} \cdot W_{\text{DPO}}}{\|W_{\te
 DPO implicitly defines a reward:
 $$r^*(x, y) = \beta \log \frac{\pi_\theta(y|x)}{\pi_{\text{ref}}(y|x)} + \beta \log Z(x)$$
 
-## 🏥 Merck Connection
+## 🏥 Enterprise Pharma Application
 
-| DPO Concept | Merck Application |
+| DPO Concept | Pharma Application |
 |---|---|
 | Chosen response | Business-validated executive summary |
 | Rejected response | Vague, number-free, or hallucinated output |
@@ -55,11 +55,6 @@ $$r^*(x, y) = \beta \log \frac{\pi_\theta(y|x)}{\pi_{\text{ref}}(y|x)} + \beta \
 | + SFT only | 82% | 55% | 81% |
 | + SFT + DPO (β=5.0) | 86% | **72%** | 84% |
 | + SFT + DPO + Merge | **88%** | **74%** | **87%** |
-
-## 🔗 Liquid AI Connection
-- Implements their exact three-stage recipe with documented β=5.0
-- Axolotl is a supported fine-tuning framework in the Liquid ecosystem
-- Model merging (SLERP/TIES) via MergeKit
 
 ## License
 MIT
