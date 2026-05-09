@@ -1,6 +1,9 @@
-# ⚙️ Axolotl Domain SFT + DPO Pipeline
+# Domain SFT + DPO with Axolotl
 
-> Multi-stage fine-tuning with Axolotl: SFT followed by Direct Preference Optimization (DPO) for enterprise domain adaptation on LFM2.5.
+> End-to-end fine-tuning pipeline using Axolotl: domain SFT, DPO alignment, and SLERP model merging for enterprise text applications.
+>
+> **Context:** Axolotl simplifies multi-stage fine-tuning workflows. This repo documents the configuration patterns and ablation results from adapting LLMs for commercial analytics tasks.
+
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
