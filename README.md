@@ -58,3 +58,9 @@ $$r^*(x, y) = \beta \log \frac{\pi_\theta(y|x)}{\pi_{\text{ref}}(y|x)} + \beta \
 
 ## License
 MIT
+
+## 📸 Visual Tour
+
+![comparison](viz/comparison.png)
+
+---
